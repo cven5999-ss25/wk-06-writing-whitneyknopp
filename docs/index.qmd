@@ -2,12 +2,13 @@
 title: "A minimal example"
 date: today
 author: First Last 
-format:
-  html:
-    toc: true
+format: html # revealjs is for slides
 execute:
-  warning: false
+  warning: false # don't show any warnings in the output
+  # echo: false # this removes the code that produces figures 
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Data
@@ -43,6 +44,14 @@ ggplot(data = penguins,
 ```
 
 ## Penguins
+
+-   for cross references, you must have 3 things:
+
+    -   a label, that starts with "fig"or "tbl" depending on if its a figure or table
+
+    -   needs a caption with "tbl-cap" or "fig-cap"
+
+    -   reference with an `@fig-label`
 
 @tbl-penguins shows a summary of for the bill depth of penguins by island and species.
 

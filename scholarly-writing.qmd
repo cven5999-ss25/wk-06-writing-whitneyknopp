@@ -15,7 +15,7 @@ citation:
   container-title: My Blog
   url: https://www.example.com
 bibliography: references.bib
-csl: apa.csl
+csl: apa.csl # connecting references as the bibliography
 editor: visual
 ---
 
@@ -25,13 +25,27 @@ Scholarly articles require much more detail in their front matter than simply a 
 
 ## Task: Citations
 
+Methods for citations:
+
+-   use the "insert" button
+
+    -   for in-text, you need to select the box (or de-select)
+
+        -   from here you can cite your R packages and other integrated search engines
+
+-   site the reference using `@key`
+
+    -   for in-text, just use the key
+
+    -   for parenthetical, use `[@key]`
+
 1.  Add the citation key for the paper "'My flight arrives at 5 am, can you pick me up?': The gatekeeping burden of the african academic" as an in-text reference to the sentence below
 
-In \_\_\_, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
+In @tilley2021my, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
 
 2.  Add the citation key for the paper "'The rich will always be able to dispose of their waste': a view from the frontlines of municipal failure in Makhanda, South Africa" as a citation at the end of the sentence below.
 
-Inequality underpins waste management systems, structuring who can or cannot access services \_\_\_.
+Inequality underpins waste management systems, structuring who can or cannot access services [@kalina2023rich].
 
 ## Bibliographies
 
